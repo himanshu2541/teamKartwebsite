@@ -1,0 +1,52 @@
+.text-box h1 {
+    font-size: 30px;
+}
+
+.nav-links ul li {
+    display: block;
+}
+
+
+
+.nav-links {
+    display: none;
+    position: absolute;
+    background: #f44336;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: .8s ease;
+}
+.nav-links-change-position {
+    display: block;
+    position: absolute;
+    background: #f44336;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+    transition: .8s ease;
+}
+
+.nav-links ul{
+    padding: 30px;
+}
+
+.row{
+    flex-direction: column;
+}
+
+.team-col,.car-col{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.team-col, .car-col {
+    margin-left: 0;
+    margin-right: 0;
+}
